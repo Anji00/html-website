@@ -111,6 +111,113 @@
       <div class="container">
 
         <div class="row row-cols-1 row-cols-md-2 g-5">
+
+
+          <div class="col">
+            <div class="card shadow-lg" id="app-card">
+              <div class="col-md-5 card-img-top">
+                <!--carousel 1-->
+                <div id="carouselApp" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="./images/app_start.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./images/app_home.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./images/app_send.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./images/app_manage.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./images/app_confirm.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselApp" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselApp" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body shadow-lg">
+                <h5 class="card-title fw-bold">R1D4 Interface App</h5>
+                <p class="card-text">
+                  An Android application developed in a team of 3 that serves as the facial interface for the R1D4 hospital delivery robot, 
+                  enabling users to schedule, manage, and confirm deliveries.
+                </p>
+                <div class="d-flex justify-content-between align-items-center m-1">
+                  <a href="#" class="btn btn-primary" id="read-more-btn">Read More</a>
+                  <a href="https://github.com/McGill-ECSE321-Winter2024/FitHub"> 
+                    <img src="./images/github_logo.png" alt="Github logo" height="30px" width="30px"> 
+                  </a>
+                </div>
+                <div class="additional-text d-none">
+                  <ul>
+                    <li>Developed a <span class="fw-key">React Native</span> app using <span class="fw-key">JavaScript</span> to exchange real-time feedback with the robot, rendering status updates as animations and expressions on the tablet.</li> 
+                      <li> Engineered real-time communication between the app and an <span class="fw-key"> ESP32 microcontroller </span>, via a <span class="fw-key"> USB serial </span> connection and <span class="fw-key"> Telnet </span>.</li> 
+                      <li> Successfully built, deployed, and tested the app using <span class="fw-key">Android Studio </span> and <span class="fw-key">Expo </span> on the production Android tablet. </li>           
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-lg" id="nav-card">
+              <div class="col-md-5 card-img-top">
+                <!--carousel 1-->
+                <div id="carouselNav" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                      <img src="./images/nav_1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./images/nav_2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                      <img src="./images/nav_3.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselNav" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselNav" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body shadow-lg">
+                <h5 class="card-title fw-bold">HoverBot Navigation System</h5>
+                <p class="card-text">
+                   A real-time vision-based system developed in a team of 3 that enables users to select a target robot, 
+                   define its field of view, and specify a destination point for autonomous navigation.
+                </p>
+                <div class="d-flex justify-content-between align-items-center m-1">
+                  <a href="#" class="btn btn-primary" id="read-more-btn">Read More</a>
+                  <a href="https://youtu.be/0KpnwpMZ4bQ"> 
+                    <img src="./images/youtube_logo.png" alt="Github logo" height="30px" width="30px"> 
+                  </a>
+                </div>
+                <div class="additional-text d-none">
+                  <ul>
+                    <li> Built a camera-based navigation system for the robot, enabling destination selection via live camera feed.</li> 
+                      <li> Utilized <span class="fw-key"> Python </span> and <span class="fw-key"> OpenCV </span> to implement object detection, tracking, and parallax correction for the robot, destination, and field of view. </li> 
+                      <li> Designed and implemented a <span class="fw-key"> custom path finding algorithm </span> integrate with the robot’s control system via a <span class="fw-key"> REST API </span> and <span class="fw-key"> TCP server </span>, for precise movement execution.</li>
+                      <li> Conducted extensive testing to ensure accurate and stable navigation.</li>         
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
           
           <div class="col">
             <div class="card shadow-lg" id="fithub-card">
@@ -235,61 +342,114 @@
               </div>
             </div>
           </div>
+
+
           <div class="col my-5">
             <div class="card shadow-lg">
 
-              <div class="col-md-5 card-img-top">
-            
-                <!--carousel 3-->
-                <div id="carouselPP" class="carousel slide" data-bs-ride="carousel">
-                 <div class="carousel-inner">
-                   <div class="carousel-item active" data-bs-interval="3000">
-                     <img src="./images/pp_home.png" class="d-block w-100" alt="...">
-                   </div>
-                   <div class="carousel-item" data-bs-interval="3000">
-                     <img src="./images/pp_result.png" class="d-block w-100" alt="...">
-                   </div>
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselPP" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </button>
-                 <button class="carousel-control-next" type="button" data-bs-target="#carouselPP" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </button>
-               </div>
-   
-             </div>
-
+              <img src="./images/seg.png" class="card-img-top hardware" alt="FPGA board">
               <div class="card-body shadow-lg">
-                <h5 class="card-title fw-bold">Perfect Pitch</h5>
+                <h5 class="card-title fw-bold">Medical Image Segmentation Model </h5>
                 <p class="card-text">
-                  A Resume Feedback web application designed in collaboration with one other team member as part of a Hackathon, leveraging multiple large language models (LLMs) to provide users with feedback on their resumes based on a given job description.
+                  A medical image Supervised Segmentation Model to perform accurate pixel-level tumor detection on medical images.
                 </p>
                 <div class="d-flex justify-content-between align-items-center m-1">
                 <a href="#" class="btn btn-primary"> Read More </a>
-                <a href="https://github.com/Anji00/Codejam"> 
-                  <img class="ml-5" src="./images/github_logo.png" alt="Github logo" height="30px" width="30px" > 
-                </a>
-                <a href="https://devpost.com/software/perfect-pitch-2j7h0p"> 
-                  <img class="mx-4" src="./images/devpost_logo.png" alt="Devpost logo" height="20px" width="80px"> 
-                </a>
               </div>
               <div class="additional-text d-none">
                 <ul>
-                  <li> The backend was implemented using three different <span class="fw-key"> LLM </span> models, accessed through APIs via Hugging Face with <span class="fw-key"> Python </span>, to extract keywords and identify similarities. </li>
-                  <li>The frontend was developed using <span class="fw-key"> React.JS with</span> <span class="fw-key"> HTML </span>,<span class="fw-key"> CSS </span>and <span class="fw-key">JavaScript </span>to create a responsive and intuitive user interface. </li>
-                  <li> Developed this application as part of a Hackathon - CodeJam </li> 
+                  <li> Developed a medical supervised image segmentation pipeline in <span class="fw-key">Python</span> using the <span class="fw-key">Scikit-Learn library </span> to classify tissues. </li>
+                  <li> Trained the model on ~1,000 medical images annotated with different labels such as tumor, lymphocyte, etc. </li>
+                  <li>  Achieved accurate tumor detection through pixel-level classification using a <span class="fw-key">Random Forest </span>approach. </li> 
                 </ul>
               </div>
               </div>
             </div>
           </div>
+
+
           <div class="col my-5">
             <div class="card shadow-lg">
+                <img src="./images/db.png" class="card-img-top hardware" alt="db_er_schema">
+                  <div class="card-body shadow-lg">
+                    <h5 class="card-title fw-bold">Online Jewelry Store Database</h5>
+                    <p class="card-text">
+                       A relational database created in a team of 3 using DB2, SQL, and JDBC with ER modeling, indexing, and Java integration.
+    
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center m-1">
+                      <a href="#" class="btn btn-primary" id="read-more-btn">Read More</a>
+                    </div>
+                    <div class="additional-text d-none">
+                      <ul>
+                        <li> Designed and developed a relational database system using <span class="fw-key">DB2</span> and <span class="fw-key">SQL</span>. </li>    
+                        <li> Formulated a comprehensive <span class="fw-key">ER model</span> and relational schema to represent key business entities and relationships. </li>   
+                        <li> Implemented <span class="fw-key">SQL </span>queries for data manipulation and retrieval, and designed <span class="fw-key">indexes </span>for performance optimization. </li> 
+                        <li> Utilized <span class="fw-key">JDBC </span>to connect the database with Java-based menu driven program for interaction </li>
 
-              <div class="col-md-5 card-img-top">
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col my-5">
+                <div class="card shadow-lg">
+    
+                  <div class="col-md-5 card-img-top">
+                
+                    <!--carousel 3-->
+                    <div id="carouselPP" class="carousel slide" data-bs-ride="carousel">
+                     <div class="carousel-inner">
+                       <div class="carousel-item active" data-bs-interval="3000">
+                         <img src="./images/pp_home.png" class="d-block w-100" alt="...">
+                       </div>
+                       <div class="carousel-item" data-bs-interval="3000">
+                         <img src="./images/pp_result.png" class="d-block w-100" alt="...">
+                       </div>
+                     </div>
+                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselPP" data-bs-slide="prev">
+                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Previous</span>
+                     </button>
+                     <button class="carousel-control-next" type="button" data-bs-target="#carouselPP" data-bs-slide="next">
+                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                       <span class="visually-hidden">Next</span>
+                     </button>
+                   </div>
+       
+                 </div>
+    
+                  <div class="card-body shadow-lg">
+                    <h5 class="card-title fw-bold">Perfect Pitch</h5>
+                    <p class="card-text">
+                      A Resume Feedback web application designed in collaboration with one other team member as part of a Hackathon, leveraging multiple large language models to provide users with feedback on their resumes based on a given job description.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center m-1">
+                    <a href="#" class="btn btn-primary"> Read More </a>
+                    <a href="https://github.com/Anji00/Codejam"> 
+                      <img class="ml-5" src="./images/github_logo.png" alt="Github logo" height="30px" width="30px" > 
+                    </a>
+                    <a href="https://devpost.com/software/perfect-pitch-2j7h0p"> 
+                      <img class="mx-4" src="./images/devpost_logo.png" alt="Devpost logo" height="20px" width="80px"> 
+                    </a>
+                  </div>
+                  <div class="additional-text d-none">
+                    <ul>
+                      <li> The backend was implemented using three different <span class="fw-key"> LLM </span> models, accessed through APIs via Hugging Face with <span class="fw-key"> Python </span>, to extract keywords and identify similarities. </li>
+                      <li>The frontend was developed using <span class="fw-key"> React.JS with</span> <span class="fw-key"> HTML </span>,<span class="fw-key"> CSS </span>and <span class="fw-key">JavaScript </span>to create a responsive and intuitive user interface. </li>
+                      <li> Developed this application as part of a Hackathon - CodeJam </li> 
+                    </ul>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+             
+              <div class="col">
+                <div class="card shadow-lg" id="nav-card">
+                <div class="col-md-5 card-img-top">
             
                 <!--carousel 4-->
                 <div id="carouselMDC" class="carousel slide" data-bs-ride="carousel">
@@ -353,7 +513,30 @@
 
         <div class="container">
         <div class="row row-cols-1 row-cols-md-2 g-5">
-          <div class="col">
+
+          <div class="col">  
+            <div class="card shadow-lg">
+              <img src="./images/dict.png" class="card-img-top hardware" alt="FPGA board">
+              <div class="card-body shadow-lg">
+                <h5 class="card-title">Interactive Dictaphone on STM32L4</h5>
+                <p class="card-text">               
+                </p>
+                <div class="d-flex justify-content-between align-items-center m-1">
+                <a href="#" class="btn btn-primary"> Read More </a>
+              </div>
+              <div class="additional-text d-none">
+                <ul> 
+                  <li>Developed a multiple audio recording & playback system in a team of 3 using <span class="fw-key"> C </span> with <span class="fw-key">STM32CubeIDE</span>.</li>
+                  <li>Integrated <span class="fw-key">DFSDM microphone </span> for high-quality audio recording and DAC-connected speaker for playback.</li>
+                  <li>Used <span class="fw-key">QSPI flash memory </span>to store multiple voice notes.</li>
+                  <li>Implemented joystick navigation with <span class="fw-key">ADC input</span> for a Joystick sensor module to control recording selection, playback, and mute functionality.</li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">  
             <div class="card shadow-lg">
               <img src="./images/bit_detector.png" class="card-img-top hardware" alt="FPGA board">
               <div class="card-body shadow-lg">
@@ -366,7 +549,7 @@
               </div>
               <div class="additional-text d-none">
                 <ul> 
-                    <li> Implemented a circuit which counts the number of occurrences of two different bit patterns 
+                    <li> Implemented a circuit which counts the number of occurrences of two different bit patterns. 
                     from the input sequence of bits using a FSM with <span class="fw-key"> VHDL </span> using <span class="fw-key"> Quartus Prime</span>. </li>
                     <li> Created 7-segment decoder logic and counters which were simulated using <span class="fw-key"> ModelSim</span>.</li>
                     <li> Tested the functionality of the circuit on the <span class="fw-key"> FPGA Altera DE1-SoC board</span>. </li>
@@ -375,6 +558,7 @@
               </div>
             </div>
           </div>
+          
           <div class="col">
             <div class="card shadow-lg">
               <img src="./images/cpu.png" class="card-img-top hardware" alt="CPU logic">
